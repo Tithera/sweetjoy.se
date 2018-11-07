@@ -1,2 +1,5 @@
 # sweetjoy.se
-A webpage about the family cats
+
+A webpage about the family breading of British shorthair cats.
+
+It was also my final project in upper secondary school.
