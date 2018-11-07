@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body{
+	height: 100%;
+}
+
+body {
+	background-image:url(../img/backgroundd.jpg);
+	margin:0px;
+	padding:0px;
+	font-family:"Arsenal";
+	display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+	width:1300px;
+	margin:auto;
+	padding:10px;
+	flex: 1 0 auto;
+}
+
+section {
+	width:100%;
+	margin: 0px 0px 10px 0px;
+	background-color:#FFF;
+	border-radius: 9px;
+	border-width:1px;
+	border-color:#29291a;
+	border-style:solid;
+}
+
+h1 {
+	text-align:center;
+	font-size:48px;
+	margin: 30px 0px 0px 0px;
+}
+
+/* Styling for the header */
+
+header {
+	width:100%;
+	height:140px;
+	margin: 0px 0px 10px 0px;
+  background-image:url(../img/pinkspark2.jpg);
+	background-size:100%;
+	border-radius: 9px 9px 9px 9px;
+	border-width:1px;
+	border-color:#29291a;
+	border-style:solid;
+}
+
+.headerLogo {
+	margin: 5px 0px 0px 400px;
+	width:471px;
+}
+
+/* Styling for the navigation */
+
+nav {
+	width:100%;
+	height:51px;
+	margin: 0px 0px 10px 0px;
+	background-color:#FFF;
+	color: #000;
+}
+
+nav ul {
+  text-align: left;
+  margin: 0;
+  padding: 0px 4px 0px 0;
+  list-style: none;
+  color: #000;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 16px 50px;
+  background: #fff;
+  transition: all 0.2s;
+  list-style: none;
+	text-decoration: none;
+	color: #000;
+	float: left;
+}
+
+nav a:hover {
+  background: #555;
+  color: #fff;
+}
+
+/* Styling for the footer */
+
+footer {
+	width:100%;
+	height:80px;
+	margin: 10px 0px 0px 0px;
+	background-color:#3d3129;
+	color: #fff;
+	display:flex;
+  align-items: center;
+	flex-shrink: 0;
+}
+
+.fotext {
+	text-align: right;
+  flex: 1;
+  padding-right: 30px
+}
+
+/* Styling for the index page */
+
+.displayFlex {
+	display: flex;
+	align-items: flex-start;
+}
+
+.secimg {
+	align-self: flex-start;
+	width:700px;
+	margin: 30px 30px 0 55px;
+	box-shadow: 1px 1px 2px 1px #000000;
+}
+
+article {
+	height:270px;
+	width:450px;
+	background-color:#e978a9;
+	margin:30px 55px 0px 0px;
+	padding:10px;
+}
+
+.arttitel {
+	text-align:center;
+	font-size:24px;
+	margin: 10px 0px 0px 0px;
+	font-weight:bold;
+	}
+
+.news {
+	text-align:left;
+	font-size:16px;
+	}
+
+.diplomering {
+	margin:30px 0 20px 0;
+	width:150px;
+}
+
+/* Styling for the about us page */
+
+.abouttext {
+	text-align:left;
+	font-size:16px;
+	margin: 20px 30px 30px 30px;
+}
+
+.aboutcolage {
+	width:750px;
+	margin:10px 0 40px 280px;
+	box-shadow: 1px 1px 2px 1px #000000;
+	}
+
+
+/* Styling of the our cats page */
+
+.ourcatsdiv {
+	width:400px;
+	margin:10px 10px 40px 150px;
+	display: inline-block;
+	}
+
+.catnames {
+	font-family:"Freestyle Script";
+	text-align:left;
+	font-size:30px;
+	color:#29291a;
+	font-weight:bold;
+}
+
+.catimg {
+	width:400px;
+	box-shadow: 1px 1px 2px 1px #000000;
+}
+
+
+/* Styling for the cats pages */
+
+.catkorttextdiv {
+	width:276px;
+	height:261px;
+	margin:20px 0px 10px 10px;
+	text-align:left;
+	font-size:18px;
+}
+
+
+.cattextdiv {
+	margin:10px 40px 20px 40px;
+	text-align:left;
+	font-size:16px;
+}
+
+
+.imgessie {
+	width:350px;
+	box-shadow: 1px 1px 2px 1px #000000;
+	margin:20px 20px 10px 300px;
+}
+
+
+.imgfia {
+	width:395px;
+	box-shadow: 1px 1px 2px 1px #000000;
+	margin:20px 20px 10px 350px;
+}
+
+.imgchanel {
+	width:300px;
+	box-shadow: 1px 1px 2px 1px #000000;
+	margin:20px 20px 10px 390px;
+}
+
+
+.imgrosie {
+	width:300px;
+	box-shadow: 1px 1px 2px 1px #000000;
+	margin:20px 20px 10px 390px;
+}
+
+
+/* Styling for the plans page */
+
+.planstext {
+	margin: 40px 0px 300px 0px;
+}
+
+
+/* Styling for the kitten page */
+.kittenstext {
+	text-align:left;
+	font-size:18px;
+	margin: 30px 20px 20px 20px;
+}
+
+
+/* Styling for the old kittens page */
+
+.centerDiv {
+	text-align:center;
+	margin: 30px 0 30px 0;
+}
+
+.oldKlinktext {
+	font-size:30px;
+	margin: 40px 10px 10px 10px;
+	text-decoration:none;
+	color: #000;
+}
+
+.oldtext {
+	font-size:18px;
+	margin: 10px 10px 10px 10px;
+	}
+
+
+/* Styling the old kittens pages */
+
+.född {
+	text-align:center;
+	font-size:20px;
+	margin:0px 0px 10px 0px;
+}
+
+.kittentitel {
+	font-family:"Freestyle Script";
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	margin:50px 30px 10px 30px;
+}
+
+.kittencolage {
+	width:600px;
+	margin: 10px 20px 60px 340px;
+	box-shadow: 1px 1px 2px 1px #000000;
+}
+
+.catparents {
+	width:288px;
+	margin: 10px 75px 10px 175px;
+	box-shadow: 1px 1px 2px 1px #000000;
+}
+
+.heart {
+	margin:0px -30px 110px 70px;
+}
+
+.catnamn {
+	font-family:"Freestyle Script";
+	text-align:left;
+	font-size:24px;
+	font-weight:bold;
+	float:left;
+	margin:10px 150px 10px 80px;
+}
+
+.catnamn2 {
+	font-family:"Freestyle Script";
+	text-align:left;
+	font-size:24px;
+	font-weight:bold;
+	float:left;
+	margin:10px 130px 10px 80px;
+}
+
+/* Styling of the contact page */
+
+.contacttext {
+	margin: 50px 0 100px 510px;
+}
